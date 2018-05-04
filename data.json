@@ -1,0 +1,106 @@
+{
+  "items": [
+    {
+      "id": 3582,
+      "kitchen_id": 159,
+      "name": "Ayam bakar Taliwang dan Jukut Urap",
+      "slug": "ayam-bakar-taliwang",
+      "description": "Menu ini berasal dari Karang Taliwang, sebuah desa di pulau Lombok. Karakter asli rasanya dominan pedas, tapi sedikit kami kurangi pedasnya agar bisa dinikmati oleh semua konsumen. Disajikan dengan tempe goreng dan jukut urap, tak ketinggalan nasi putih.",
+      "rating": 4.089447,
+      "primary_pic": "https://assetcdn.kulina.id/production/img/ayam-bakar-taliwang-dan-jukut-urap.jpg",
+      "multi_res_image": {
+        "thumbnail_url": "https://assetcdn.kulina.id/production/img/ayam-bakar-taliwang-dan-jukut-urap_thumb.jpg",
+        "desktop_url": "https://assetcdn.kulina.id/production/img/ayam-bakar-taliwang-dan-jukut-urap_desktop.jpg",
+        "mobile_url": "https://assetcdn.kulina.id/production/img/ayam-bakar-taliwang-dan-jukut-urap_mobile.jpg"
+      },
+      "tags": [],
+      "category": {},
+      "review_count": 995
+    },
+    {
+      "id": 3563,
+      "kitchen_id": 159,
+      "name": "Ayam Goreng Ketumbar",
+      "slug": "ayam-goreng-ketumbar",
+      "description": "Ketumbar -- atau coriander/cilantro seeds merupakan satu jenis rempah yang kaya dengan vitamin. Ayam ketumbar, sayur lodeh dan sambel terasi adalah paduan masakan warisan nusantara sejak dulu kala. Disajikan bersama nasi putih dan tahu kremes. Nyam.",
+      "rating": 4.18267,
+      "primary_pic": "https://assetcdn.kulina.id/production/img/ayam-goreng-ketumbar-1.jpg",
+      "multi_res_image": {
+        "thumbnail_url": "https://assetcdn.kulina.id/production/img/ayam-goreng-ketumbar-1_thumb.jpg",
+        "desktop_url": "https://assetcdn.kulina.id/production/img/ayam-goreng-ketumbar-1_desktop.jpg",
+        "mobile_url": "https://assetcdn.kulina.id/production/img/ayam-goreng-ketumbar-1_mobile.jpg"
+      },
+      "tags": [],
+      "category": {},
+      "review_count": 854
+    },
+    {
+      "id": 3591,
+      "kitchen_id": 159,
+      "name": "Rendang Sapi & Perkedel Kentang",
+      "slug": "rendang-sapi-kentang",
+      "description": "Rendang, menu daging yang diolah dengan banyak rempah ini terpilih jadi World's Best Foods 2017 versi CNN. Sengaja dihadirkan untuk kamu, lengkap dengan jodoh nasi putih, singkong rebus dan perkedel kentangnya, ditambah gulai tahu putih.",
+      "rating": 4.304276,
+      "primary_pic": "https://assetcdn.kulina.id/production/img/rendang-sapi-perkedel-kentang.jpg",
+      "multi_res_image": {
+        "thumbnail_url": "https://assetcdn.kulina.id/production/img/rendang-sapi-perkedel-kentang_thumb.jpg",
+        "desktop_url": "https://assetcdn.kulina.id/production/img/rendang-sapi-perkedel-kentang_desktop.jpg",
+        "mobile_url": "https://assetcdn.kulina.id/production/img/rendang-sapi-perkedel-kentang_mobile.jpg"
+      },
+      "tags": [],
+      "category": {},
+      "review_count": 1216
+    },
+    {
+      "id": 3549,
+      "kitchen_id": 159,
+      "name": "Dori Asam Manis dan Capcay goreng",
+      "slug": "gurame-asam-manis",
+      "description": "Dori terkenal dengan dagingnya yang gurih dan berstruktur lembut. Kami goreng tepung tanpa tulang dengan siraman kuah asam manis. Kami sajikan dengan nasi putih dan telor dadar isi. Tak ketinggalan capcay sebagai sayur pendampingnya.",
+      "rating": 4.099201,
+      "primary_pic": "https://assetcdn.kulina.id/production/img/gurame-asam-manis.jpg",
+      "multi_res_image": {
+        "thumbnail_url": "https://assetcdn.kulina.id/production/img/gurame-asam-manis_thumb.jpg",
+        "desktop_url": "https://assetcdn.kulina.id/production/img/gurame-asam-manis_desktop.jpg",
+        "mobile_url": "https://assetcdn.kulina.id/production/img/gurame-asam-manis_mobile.jpg"
+      },
+      "tags": [],
+      "category": {},
+      "review_count": 1502
+    },
+    {
+      "id": 3466,
+      "kitchen_id": 159,
+      "name": "Nasi Ayam Saus Mentega",
+      "slug": "nasi-ayam-saus-mentega",
+      "description": "nasi putih, ayam saus mentega, jamur crispy, tempe balado, karedok, sambal bajak, lalapan dan kerupuk bawang",
+      "rating": 3.363636,
+      "primary_pic": "https://assetcdn.kulina.id/production/img/nasi-ayam-saus-mentega.jpg",
+      "multi_res_image": {
+        "thumbnail_url": "https://assetcdn.kulina.id/production/img/nasi-ayam-saus-mentega_thumb.jpg",
+        "desktop_url": "https://assetcdn.kulina.id/production/img/nasi-ayam-saus-mentega_desktop.jpg",
+        "mobile_url": "https://assetcdn.kulina.id/production/img/nasi-ayam-saus-mentega_mobile.jpg"
+      },
+      "tags": [],
+      "category": {},
+      "review_count": 11
+    },
+    {
+      "id": 3579,
+      "kitchen_id": 159,
+      "name": "Ayam Rica Kemangi",
+      "slug": "ayam-rica-kemangi",
+      "description": "Daun kemangi memberikan aroma aromatik yang bersautan nikmat dengan pedasnya ayam bumbu rica.",
+      "rating": 4.136476,
+      "primary_pic": "https://assetcdn.kulina.id/production/img/ayam-rica-kemangi-3.jpg",
+      "multi_res_image": {
+        "thumbnail_url": "https://assetcdn.kulina.id/production/img/ayam-rica-kemangi-3_thumb.jpg",
+        "desktop_url": "https://assetcdn.kulina.id/production/img/ayam-rica-kemangi-3_desktop.jpg",
+        "mobile_url": "https://assetcdn.kulina.id/production/img/ayam-rica-kemangi-3_mobile.jpg"
+      },
+      "tags": [],
+      "category": {},
+      "review_count": 1209
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "date": "Jumat, 04 Mei 2018",
+      "description": "Masakan asli dari pesisir Indonesia. Kenyalnya cumi dan sengatan pedasnya cabe hijau begitu pas di mulut. Selingi dengan gigitan Tempe Crispy di sela suapan nasi putih, dan renyahnya wortel yang ditumis dengan sawi putih & jagung. Amboi!",
+      "img_url": "https://assetcdn.kulina.id/production/img/cumi-asin-cabe-ijo-1.jpg",
+      "slug": "cumi-asin-cabe-ijo",
+      "name": "Cumi Asin Cabe Ijo & Tempe Goreng Crispy"
+    },
+    {
+      "date": "Senin, 07 Mei 2018",
+      "description": "Menu ini berasal dari Karang Taliwang, sebuah desa di pulau Lombok. Karakter asli rasanya dominan pedas, tapi sedikit kami kurangi pedasnya agar bisa dinikmati oleh semua konsumen. Disajikan dengan tempe goreng dan jukut urap, tak ketinggalan nasi putih.",
+      "img_url": "https://assetcdn.kulina.id/production/img/ayam-bakar-taliwang-dan-jukut-urap.jpg",
+      "slug": "ayam-bakar-taliwang",
+      "name": "Ayam bakar Taliwang dan Jukut Urap"
+    },
+    {
+      "date": "Selasa, 08 Mei 2018",
+      "description": "Ketumbar -- atau coriander/cilantro seeds merupakan satu jenis rempah yang kaya dengan vitamin. Ayam ketumbar, sayur lodeh dan sambel terasi adalah paduan masakan warisan nusantara sejak dulu kala. Disajikan bersama nasi putih dan tahu kremes. Nyam.",
+      "img_url": "https://assetcdn.kulina.id/production/img/ayam-goreng-ketumbar-1.jpg",
+      "slug": "ayam-goreng-ketumbar",
+      "name": "Ayam Goreng Ketumbar"
+    }
+  ]
+}
