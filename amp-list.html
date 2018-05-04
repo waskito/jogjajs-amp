@@ -1,0 +1,381 @@
+
+<!doctype html>
+<html ⚡>
+
+<head>
+  <meta charset="utf-8">
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+  <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+  <title>Kulina: Catering Makan Siang Jakarta</title>
+  <link rel="canonical" href="https://www.kulina.id/">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+  <style amp-custom>
+    body {
+            font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+            color: #8b90a1;
+            font-size: 16px;
+            line-height: 24px;
+          }
+          .navbar {
+            position: fixed;
+            left: 0px;
+            top: 0px;
+            right: 0px;
+            padding-right: 16px;
+            padding-left: 16px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            background-color: #fff;
+            z-index: 999;
+          }
+          .section {
+            padding: 60px 16px;
+            background-image: -webkit-linear-gradient(270deg, #fafafa, #fff);
+            background-image: linear-gradient(180deg, #fafafa, #fff);
+          }
+          .section.hero {
+            height: 480px;
+            padding-top: 90px;
+            background-image: url('images/kulina_bg.jpg');
+            background-position: 50% 100%;
+            background-size: 480px;
+            background-repeat: no-repeat;
+          }
+          .heading {
+            color: #3c464e;
+            font-size: 26px;
+            line-height: 34px;
+            font-weight: 700;
+            text-align: center;
+            letter-spacing: -1px;
+          }
+          .sub-heading {
+            margin-bottom: 32px;
+            font-size: 16px;
+            line-height: 22px;
+            text-align: center;
+          }
+          .button {
+            display: block;
+            width: 256px;
+            max-height: 48px;
+            margin-top: 32px;
+            margin-right: auto;
+            margin-left: auto;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            border-radius: 99px;
+            background-color: #13ce66;
+            font-weight: 700;
+            text-align: center;
+            color: #fff;
+            text-decoration: none;
+          }
+          .heading-2 {
+            margin-top: 0px;
+            margin-bottom: 8px;
+            color: #3c464e;
+            font-size: 24px;
+            line-height: 30px;
+            font-weight: 700;
+            text-align: center;
+            letter-spacing: -1px;
+          }
+          .card {
+            display: block;
+            overflow: hidden;
+            max-width: 360px;
+            margin-right: auto;
+            margin-bottom: 24px;
+            margin-left: auto;
+            border-radius: 4px;
+            box-shadow: 0 0 24px 0 rgba(0, 0, 0, .24);
+          }
+          .card.green {
+            background-color: #13ce66;
+          }
+          .card.promo {
+            padding-top: 24px;
+            padding-bottom: 16px;
+            background-image: url('images/promo_bg.png');
+            background-position: 50% -80px;
+            background-size: 269px;
+            background-repeat: no-repeat;
+          }
+          .card.promo.green {
+            padding-bottom: 16px;
+          }
+          .card.promo.pink {
+            padding-bottom: 16px;
+            background-color: #ef5777;
+          }
+          .card.promo.blue {
+            padding-bottom: 16px;
+            background-color: #608bf5;
+          }
+          .meal-date {
+            margin-bottom: 4px;
+            color: #13ce66;
+          }
+          .text-container {
+            padding: 16px;
+          }
+          .paragraph {
+            font-size: 16px;
+            line-height: 22px;
+            text-align: left;
+          }
+          .paragraph.center {
+            text-align: center;
+          }
+          .paragraph.center.white {
+            color: #fff;
+          }
+
+          .card-title {
+            margin-top: 0px;
+            margin-bottom: 8px;
+            color: #3c464e;
+            font-size: 18px;
+            line-height: 24px;
+            font-weight: 700;
+            text-align: left;
+          }
+          .card-title.center {
+            text-align: center;
+          }
+          .card-title.center.white {
+            color: #fff;
+          }
+          .link {
+            display: block;
+            margin-top: 32px;
+            margin-right: auto;
+            margin-left: auto;
+            color: rgba(0, 0, 0, .6);
+            font-weight: 700;
+            text-align: center;
+            text-decoration: underline;
+          }
+          .icon-base {
+            display: block;
+            max-width: 32px;
+            max-height: 32px;
+            margin-right: auto;
+            margin-bottom: 16px;
+            margin-left: auto;
+            border-radius: 100px;
+            background-color: rgba(0, 0, 0, .1);
+            padding: 16px;
+          }
+          .testimoni {
+            display: block;
+            overflow: hidden;
+            max-width: 360px;
+            margin: 32px auto 24px;
+            padding-right: 24px;
+            padding-left: 24px;
+            border-radius: 4px;
+          }
+          .testimonial {
+            margin-bottom: 24px;
+            color: #8b90a1;
+            font-size: 20px;
+            line-height: 28px;
+            font-style: italic;
+            text-align: center;
+          }
+          .customer {
+            margin-bottom: 0px;
+            color: #3c464e;
+            font-size: 16px;
+            line-height: 22px;
+            font-style: normal;
+            font-weight: 700;
+            text-align: center;
+          }
+          .occupation {
+            color: #8b90a1;
+            font-size: 14px;
+            line-height: 18px;
+            font-style: normal;
+            font-weight: 400;
+            text-align: center;
+            margin-top: 0px;
+          }
+          .hamburger {
+            padding-right: 10px;
+            float: right;
+            font-size: 24px;
+            padding-top: 6px;
+          }
+          .sidebar {
+            padding: 56px 24px 0 24px;
+            margin: 0;
+            width: 180px;
+          }
+          .sidebar-nav {
+            background-color: #fff;
+          }
+          .sidebar > li {
+            list-style: none;
+            margin-bottom:24px;
+          }
+          .sidebar a {
+            text-decoration: none;
+            color: #444;
+          }
+          .close-sidebar {
+                font-size: 24px;
+                padding-right: 24px;
+                float: right;
+                padding-top: 24px;
+                margin-bottom: 16px;
+          }
+          .login {
+            padding-right: 16px;
+            float: right;
+            font-size: 15px;
+            padding-top: 7px;
+          }
+          .login a {
+            color: #757575;
+            text-decoration: none;
+          }
+
+          a.card-link{
+            text-decoration: none;
+            color: inherit;
+          }
+  </style>
+  <style amp-boilerplate>
+    body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
+  </style>
+  <noscript>
+    <style amp-boilerplate>
+      body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}
+    </style>
+  </noscript>
+</head>
+
+<body class="body">
+  <header class="navbar">
+    <amp-img alt="Kulina Logo" src="images/kulina_logo.png" width="90px" height="32px"></amp-img>
+    <div role="button" on="tap:sidebar1.toggle" tabindex="0" class="hamburger">☰</div>
+    <div class="login"><a href="https://www.kulina.id/login?returnTo=/">LOGIN</a></div>
+
+  </header>
+  <amp-sidebar id="sidebar1" layout="nodisplay" side="right" class="sidebar-nav">
+  <div role="button" aria-label="close sidebar" on="tap:sidebar1.toggle" tabindex="0" class="close-sidebar">✕</div>
+  <ul class="sidebar">
+    <li><a href="https://www.kulina.id/amp/menu">Lihat Menu</a></li>
+    <li><a href="https://www.kulina.id/lunch-together">Lunch Together</a></li>
+    <li><a href="https://www.kulina.id/makan-gratis">Makan Gratis</a></li>
+    <li><a href="https://www.kulina.id/login?returnTo=/">LOGIN</a></li>
+  </ul>
+</amp-sidebar>
+  <div class="section hero">
+    <h1 class="heading">Makan Siang di Kantor<br>Jadi Lebih Menyenangkan</h1>
+    <p class="sub-heading">Mudah, hemat waktu dan uang. Harga flat sudah termasuk ongkos kirim.</p><a href="https://www.kulina.id/amp/menu" class="button w-button">Lihat Menu</a>
+  </div>
+  <div class="section">
+    <h2 class="heading-2">Menu Ganti Tiap Hari</h2>
+    <p class="sub-heading">Tenang, menu makan siangmu akan selalu berbeda selama 60 hari! Ada berbagai menu premium juga setiap minggunya tanpa perlu bayar lebih.</p>
+
+
+    <a href="/amp/menu/ayam-bakar-taliwang" class="card-link">
+      <div class="card">
+        <div class="text-container">
+          <div class="meal-date">Senin, 07 Mei 2018</div>
+          <div class="card-title">Ayam bakar Taliwang dan Jukut Urap</div>
+          <p class="paragraph">Menu ini berasal dari Karang Taliwang, sebuah desa di pulau Lombok. Karakter asli rasanya dominan pedas, tapi sedikit kami kurangi pedasnya agar bisa dinikmati oleh semua konsumen. Disajikan dengan tempe goreng dan jukut urap, tak ketinggalan nasi putih.</p>
+        </div>
+        <amp-img alt="Ayam bakar Taliwang dan Jukut Urap Catering Jakarta Kulina" src="https://assetcdn.kulina.id/production/img/ayam-bakar-taliwang-dan-jukut-urap_thumb.jpg" width="512" height="342" layout="responsive"></amp-img>
+      </div>
+    </a>
+
+    <a href="/amp/menu/ayam-goreng-ketumbar" class="card-link">
+      <div class="card">
+        <div class="text-container">
+          <div class="meal-date">Selasa, 08 Mei 2018</div>
+          <div class="card-title">Ayam Goreng Ketumbar</div>
+          <p class="paragraph">Ketumbar -- atau coriander/cilantro seeds merupakan satu jenis rempah yang kaya dengan vitamin. Ayam ketumbar, sayur lodeh dan sambel terasi adalah paduan masakan warisan nusantara sejak dulu kala. Disajikan bersama nasi putih dan tahu kremes. Nyam.</p>
+        </div>
+        <amp-img alt="Ayam Goreng Ketumbar Catering Jakarta Kulina" src="https://assetcdn.kulina.id/production/img/ayam-goreng-ketumbar-1_thumb.jpg" width="512" height="342" layout="responsive"></amp-img>
+      </div>
+    </a>
+
+    <a href="/amp/menu/rendang-sapi-kentang" class="card-link">
+      <div class="card">
+        <div class="text-container">
+          <div class="meal-date">Rabu, 09 Mei 2018</div>
+          <div class="card-title">Rendang Sapi &amp; Perkedel Kentang</div>
+          <p class="paragraph">Rendang, menu daging yang diolah dengan banyak rempah ini terpilih jadi World&#39;s Best Foods 2017 versi CNN. Sengaja dihadirkan untuk kamu, lengkap dengan jodoh nasi putih, singkong rebus dan perkedel kentangnya, ditambah gulai tahu putih.</p>
+        </div>
+        <amp-img alt="Rendang Sapi &amp; Perkedel Kentang Catering Jakarta Kulina" src="https://assetcdn.kulina.id/production/img/rendang-sapi-perkedel-kentang_thumb.jpg" width="512" height="342" layout="responsive"></amp-img>
+      </div>
+    </a>
+
+
+     <a href="https://www.kulina.id/amp/menu" class="button w-button">Lihat Semua Menu</a>
+  </div>
+
+  <div class="section">
+    <h2 class="heading-2">Hemat Pengeluaran<br>Setiap Bulan</h2>
+    <amp-carousel height="250" width="400" layout="responsive" type="slides" autoplay delay="8000">
+      <div class="testimoni">
+        <p class="testimonial">&quot;Sebagai ibu menyusui yang bekerja, rentan banget buat makan sekenanya. Tapi untung ketemu Kulina, lunch terjamin, sehat, bergizi.&quot;</p>
+        <p class="customer">Rennata Pranata</p>
+        <p class="occupation">PT Stanley Black & Decker</p>
+      </div>
+      <div class="testimoni">
+        <p class="testimonial">&quot;Emang udah paling hemat Kulina. Jadi aku bisa save money lebih banyak buat salurin hobiku yang satunya: jalan-jalan!&quot;</p>
+        <p class="customer">Yussy Liesfarinia</p>
+        <p class="occupation">Manulife Insurance Indonesia</p>
+      </div>
+      <div class="testimoni">
+        <p class="testimonial">&quot;Kemaren sempet di opname gara-gara jajan sembarangan, aku jadi kapok terus mau makanan yang terjamin aja deh.&quot;</p>
+        <p class="customer">Sulaiman Syahrod</p>
+        <p class="occupation">Gran Rubina</p>
+      </div>
+    </amp-carousel>
+  </div>
+
+<!--   <div class="section">
+    <h2 class="heading-2">Hemat Pengeluaran<br>Setiap Bulan</h2>
+    <p class="sub-heading">Ada banyak cara untuk bisa nabung lebih banyak dengan Kulina.</p>
+    <div class="card promo pink">
+      <div class="icon-base">
+        <amp-img alt="Kulina Icon" src="images/ic_discount.svg" width="32px" height="32px"></amp-img>
+      </div>
+      <div class="text-container">
+        <h4 class="card-title center white">Diskon Langganan</h4>
+        <p class="paragraph center white">Makin lama berlangganan, makin hemat. Diskon 10% untuk langganan 20 hari.</p>
+      </div>
+    </div>
+    <div class="card promo green">
+      <div class="icon-base">
+        <amp-img alt="Kulina Icon" src="images/ic_building.svg" width="32px" height="32px"></amp-img>
+      </div>
+      <div class="text-container">
+        <h4 class="card-title center white">Lunch Together</h4>
+        <p class="paragraph center white">Makin banyak yang langganan, makin banyak kembalian. Dapatkan kembalian hingga Rp 5000 setiap harinya.</p><a href="https://www.kulina.id/promo/lunch-together" class="link">Selengkapnya</a>
+      </div>
+    </div>
+    <div class="card promo blue">
+      <div class="icon-base">
+        <amp-img alt="Kulina Icon" src="images/ic_referral.svg" width="32px" height="32px"></amp-img>
+      </div>
+      <div class="text-container">
+        <h4 class="card-title center white">Referral</h4>
+        <p class="paragraph center white">Tidak pernah rugi dengan berbagi. Dapatkan bonus Rp 25.000 untuk kamu dan temanmu yang baru langganan</p><a href="https://www.kulina.id/promo/makan-gratis" class="link">Selengkapnya</a>
+      </div>
+    </div>
+  </div> -->
+
+
+
+</body>
+
+</html>
